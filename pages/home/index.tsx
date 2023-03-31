@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex h-screen bg-black">
+    <div className="flex h-screen bg-white">
       <Head>
         <title>Platforms on Vercel</title>
         <link rel="icon" href="/favicon.ico" />
@@ -13,7 +13,7 @@ export default function Home() {
         <Image
           width={512}
           height={512}
-          src="/logo.png"
+          src="/pixelated_boats.png"
           alt="Platforms on Vercel"
         />
       </div>
